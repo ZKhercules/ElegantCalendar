@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C76DDA2A6149EC003DDB35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76DD92A6149EC003DDB35 /* AppDelegate.m */; };
+		23C76DDD2A6149EC003DDB35 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76DDC2A6149EC003DDB35 /* SceneDelegate.m */; };
+		23C76DE02A6149EC003DDB35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76DDF2A6149EC003DDB35 /* ViewController.m */; };
+		23C76DE32A6149EC003DDB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C76DE12A6149EC003DDB35 /* Main.storyboard */; };
+		23C76DE52A6149EE003DDB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C76DE42A6149EE003DDB35 /* Assets.xcassets */; };
+		23C76DE82A6149EE003DDB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C76DE62A6149EE003DDB35 /* LaunchScreen.storyboard */; };
+		23C76DEB2A6149EE003DDB35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76DEA2A6149EE003DDB35 /* main.m */; };
+		23C76DF52A6149EE003DDB35 /* ElegantCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76DF42A6149EE003DDB35 /* ElegantCalendarTests.m */; };
+		23C76DFF2A6149EE003DDB35 /* ElegantCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76DFE2A6149EE003DDB35 /* ElegantCalendarUITests.m */; };
+		23C76E012A6149EE003DDB35 /* ElegantCalendarUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76E002A6149EE003DDB35 /* ElegantCalendarUITestsLaunchTests.m */; };
+		23C76E0E2A614A68003DDB35 /* ElegantCalendar.json in Resources */ = {isa = PBXBuildFile; fileRef = 23C76E0D2A614A68003DDB35 /* ElegantCalendar.json */; };
+		23C76E112A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76E0F2A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.m */; };
+		23C76E142A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76E122A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.m */; };
+		23C76E172A614CC5003DDB35 /* ZKPunchWeekCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C76E152A614CC4003DDB35 /* ZKPunchWeekCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C76DF12A6149EE003DDB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C76DCD2A6149EC003DDB35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C76DD42A6149EC003DDB35;
+			remoteInfo = ElegantCalendar;
+		};
+		23C76DFB2A6149EE003DDB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C76DCD2A6149EC003DDB35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C76DD42A6149EC003DDB35;
+			remoteInfo = ElegantCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C76DD52A6149EC003DDB35 /* ElegantCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegantCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C76DD82A6149EC003DDB35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23C76DD92A6149EC003DDB35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23C76DDB2A6149EC003DDB35 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		23C76DDC2A6149EC003DDB35 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		23C76DDE2A6149EC003DDB35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23C76DDF2A6149EC003DDB35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23C76DE22A6149EC003DDB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23C76DE42A6149EE003DDB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23C76DE72A6149EE003DDB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23C76DE92A6149EE003DDB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C76DEA2A6149EE003DDB35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C76DF02A6149EE003DDB35 /* ElegantCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElegantCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C76DF42A6149EE003DDB35 /* ElegantCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElegantCalendarTests.m; sourceTree = "<group>"; };
+		23C76DFA2A6149EE003DDB35 /* ElegantCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElegantCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C76DFE2A6149EE003DDB35 /* ElegantCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElegantCalendarUITests.m; sourceTree = "<group>"; };
+		23C76E002A6149EE003DDB35 /* ElegantCalendarUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElegantCalendarUITestsLaunchTests.m; sourceTree = "<group>"; };
+		23C76E0D2A614A68003DDB35 /* ElegantCalendar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ElegantCalendar.json; sourceTree = "<group>"; };
+		23C76E0F2A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPunchCalendarMonthCollectionViewCell.m; sourceTree = "<group>"; };
+		23C76E102A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPunchCalendarMonthCollectionViewCell.h; sourceTree = "<group>"; };
+		23C76E122A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPunchCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		23C76E132A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPunchCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		23C76E152A614CC4003DDB35 /* ZKPunchWeekCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPunchWeekCollectionViewCell.m; sourceTree = "<group>"; };
+		23C76E162A614CC5003DDB35 /* ZKPunchWeekCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPunchWeekCollectionViewCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C76DD22A6149EC003DDB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76DED2A6149EE003DDB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76DF72A6149EE003DDB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C76DCC2A6149EC003DDB35 = {
+			isa = PBXGroup;
+			children = (
+				23C76DD72A6149EC003DDB35 /* ElegantCalendar */,
+				23C76DF32A6149EE003DDB35 /* ElegantCalendarTests */,
+				23C76DFD2A6149EE003DDB35 /* ElegantCalendarUITests */,
+				23C76DD62A6149EC003DDB35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C76DD62A6149EC003DDB35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C76DD52A6149EC003DDB35 /* ElegantCalendar.app */,
+				23C76DF02A6149EE003DDB35 /* ElegantCalendarTests.xctest */,
+				23C76DFA2A6149EE003DDB35 /* ElegantCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C76DD72A6149EC003DDB35 /* ElegantCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				23C76E0D2A614A68003DDB35 /* ElegantCalendar.json */,
+				23C76DD82A6149EC003DDB35 /* AppDelegate.h */,
+				23C76DD92A6149EC003DDB35 /* AppDelegate.m */,
+				23C76DDB2A6149EC003DDB35 /* SceneDelegate.h */,
+				23C76DDC2A6149EC003DDB35 /* SceneDelegate.m */,
+				23C76DDE2A6149EC003DDB35 /* ViewController.h */,
+				23C76DDF2A6149EC003DDB35 /* ViewController.m */,
+				23C76E102A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.h */,
+				23C76E0F2A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.m */,
+				23C76E132A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.h */,
+				23C76E122A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.m */,
+				23C76E162A614CC5003DDB35 /* ZKPunchWeekCollectionViewCell.h */,
+				23C76E152A614CC4003DDB35 /* ZKPunchWeekCollectionViewCell.m */,
+				23C76DE12A6149EC003DDB35 /* Main.storyboard */,
+				23C76DE42A6149EE003DDB35 /* Assets.xcassets */,
+				23C76DE62A6149EE003DDB35 /* LaunchScreen.storyboard */,
+				23C76DE92A6149EE003DDB35 /* Info.plist */,
+				23C76DEA2A6149EE003DDB35 /* main.m */,
+			);
+			path = ElegantCalendar;
+			sourceTree = "<group>";
+		};
+		23C76DF32A6149EE003DDB35 /* ElegantCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				23C76DF42A6149EE003DDB35 /* ElegantCalendarTests.m */,
+			);
+			path = ElegantCalendarTests;
+			sourceTree = "<group>";
+		};
+		23C76DFD2A6149EE003DDB35 /* ElegantCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23C76DFE2A6149EE003DDB35 /* ElegantCalendarUITests.m */,
+				23C76E002A6149EE003DDB35 /* ElegantCalendarUITestsLaunchTests.m */,
+			);
+			path = ElegantCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C76DD42A6149EC003DDB35 /* ElegantCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C76E042A6149EE003DDB35 /* Build configuration list for PBXNativeTarget "ElegantCalendar" */;
+			buildPhases = (
+				23C76DD12A6149EC003DDB35 /* Sources */,
+				23C76DD22A6149EC003DDB35 /* Frameworks */,
+				23C76DD32A6149EC003DDB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElegantCalendar;
+			productName = ElegantCalendar;
+			productReference = 23C76DD52A6149EC003DDB35 /* ElegantCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23C76DEF2A6149EE003DDB35 /* ElegantCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C76E072A6149EE003DDB35 /* Build configuration list for PBXNativeTarget "ElegantCalendarTests" */;
+			buildPhases = (
+				23C76DEC2A6149EE003DDB35 /* Sources */,
+				23C76DED2A6149EE003DDB35 /* Frameworks */,
+				23C76DEE2A6149EE003DDB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C76DF22A6149EE003DDB35 /* PBXTargetDependency */,
+			);
+			name = ElegantCalendarTests;
+			productName = ElegantCalendarTests;
+			productReference = 23C76DF02A6149EE003DDB35 /* ElegantCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23C76DF92A6149EE003DDB35 /* ElegantCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C76E0A2A6149EE003DDB35 /* Build configuration list for PBXNativeTarget "ElegantCalendarUITests" */;
+			buildPhases = (
+				23C76DF62A6149EE003DDB35 /* Sources */,
+				23C76DF72A6149EE003DDB35 /* Frameworks */,
+				23C76DF82A6149EE003DDB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C76DFC2A6149EE003DDB35 /* PBXTargetDependency */,
+			);
+			name = ElegantCalendarUITests;
+			productName = ElegantCalendarUITests;
+			productReference = 23C76DFA2A6149EE003DDB35 /* ElegantCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C76DCD2A6149EC003DDB35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					23C76DD42A6149EC003DDB35 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					23C76DEF2A6149EE003DDB35 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 23C76DD42A6149EC003DDB35;
+					};
+					23C76DF92A6149EE003DDB35 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 23C76DD42A6149EC003DDB35;
+					};
+				};
+			};
+			buildConfigurationList = 23C76DD02A6149EC003DDB35 /* Build configuration list for PBXProject "ElegantCalendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23C76DCC2A6149EC003DDB35;
+			productRefGroup = 23C76DD62A6149EC003DDB35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C76DD42A6149EC003DDB35 /* ElegantCalendar */,
+				23C76DEF2A6149EE003DDB35 /* ElegantCalendarTests */,
+				23C76DF92A6149EE003DDB35 /* ElegantCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C76DD32A6149EC003DDB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C76DE82A6149EE003DDB35 /* LaunchScreen.storyboard in Resources */,
+				23C76DE52A6149EE003DDB35 /* Assets.xcassets in Resources */,
+				23C76E0E2A614A68003DDB35 /* ElegantCalendar.json in Resources */,
+				23C76DE32A6149EC003DDB35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76DEE2A6149EE003DDB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76DF82A6149EE003DDB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C76DD12A6149EC003DDB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C76DE02A6149EC003DDB35 /* ViewController.m in Sources */,
+				23C76DDA2A6149EC003DDB35 /* AppDelegate.m in Sources */,
+				23C76E112A614AB7003DDB35 /* ZKPunchCalendarMonthCollectionViewCell.m in Sources */,
+				23C76E172A614CC5003DDB35 /* ZKPunchWeekCollectionViewCell.m in Sources */,
+				23C76DEB2A6149EE003DDB35 /* main.m in Sources */,
+				23C76DDD2A6149EC003DDB35 /* SceneDelegate.m in Sources */,
+				23C76E142A614AE7003DDB35 /* ZKPunchCalendarCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76DEC2A6149EE003DDB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C76DF52A6149EE003DDB35 /* ElegantCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76DF62A6149EE003DDB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C76DFF2A6149EE003DDB35 /* ElegantCalendarUITests.m in Sources */,
+				23C76E012A6149EE003DDB35 /* ElegantCalendarUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C76DF22A6149EE003DDB35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C76DD42A6149EC003DDB35 /* ElegantCalendar */;
+			targetProxy = 23C76DF12A6149EE003DDB35 /* PBXContainerItemProxy */;
+		};
+		23C76DFC2A6149EE003DDB35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C76DD42A6149EC003DDB35 /* ElegantCalendar */;
+			targetProxy = 23C76DFB2A6149EE003DDB35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23C76DE12A6149EC003DDB35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C76DE22A6149EC003DDB35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23C76DE62A6149EE003DDB35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C76DE72A6149EE003DDB35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C76E022A6149EE003DDB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23C76E032A6149EE003DDB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23C76E052A6149EE003DDB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElegantCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantCalendar.ElegantCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23C76E062A6149EE003DDB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElegantCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantCalendar.ElegantCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23C76E082A6149EE003DDB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantCalendar.ElegantCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElegantCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElegantCalendar";
+			};
+			name = Debug;
+		};
+		23C76E092A6149EE003DDB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantCalendar.ElegantCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElegantCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElegantCalendar";
+			};
+			name = Release;
+		};
+		23C76E0B2A6149EE003DDB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantCalendar.ElegantCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElegantCalendar;
+			};
+			name = Debug;
+		};
+		23C76E0C2A6149EE003DDB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantCalendar.ElegantCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElegantCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C76DD02A6149EC003DDB35 /* Build configuration list for PBXProject "ElegantCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C76E022A6149EE003DDB35 /* Debug */,
+				23C76E032A6149EE003DDB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C76E042A6149EE003DDB35 /* Build configuration list for PBXNativeTarget "ElegantCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C76E052A6149EE003DDB35 /* Debug */,
+				23C76E062A6149EE003DDB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C76E072A6149EE003DDB35 /* Build configuration list for PBXNativeTarget "ElegantCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C76E082A6149EE003DDB35 /* Debug */,
+				23C76E092A6149EE003DDB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C76E0A2A6149EE003DDB35 /* Build configuration list for PBXNativeTarget "ElegantCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C76E0B2A6149EE003DDB35 /* Debug */,
+				23C76E0C2A6149EE003DDB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23C76DCD2A6149EC003DDB35 /* Project object */;
+}
